@@ -7,7 +7,6 @@ const USER_LS = "currentUser";
 const SHOW = "show";
 const HIDE = "hide";
 
-
 function handleSubmit(event){
     //event 막는 함수(엔터 눌럿을때 새로고침 되는 현상 막음)
     // event.preventDefault();
@@ -16,7 +15,6 @@ function handleSubmit(event){
     saveName(currentValue);
 
 }
-
 
 
 

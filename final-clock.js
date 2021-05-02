@@ -4,11 +4,6 @@ const clockTitle = clockContainer.querySelector(".js-clock-text");
 
 
 
-
-
-
-
-
 function getTime(){
 //D-day시간
 const xmasDay = new Date("2021-12-24:00:00:00+0900");
@@ -32,8 +27,6 @@ const nowDays = now.getDate();
 const nowHours = now.getHours();
 const nowMinutes = now.getMinutes();
 const nowSeconds = now.getSeconds();
-
-
 
 
 

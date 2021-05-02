@@ -16,10 +16,6 @@ function handleImgLoad(){
 
 function paintImage(imgNumber){
 
-    
-    // newDiv.setAttribute("class","js-bg-box");
-    // body.appendChild(newDiv);
-
     const image = new Image();
     image.src = `./images/${imgNumber}.jpg`;
     image.classList.add("bgImage");

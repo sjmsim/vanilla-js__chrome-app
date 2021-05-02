@@ -132,19 +132,13 @@ body {
 
 .hide {
   visibility: hidden;
-
   animation: fadeOut 1.5s ease-in-out;
-
-  /* transition: visibility 500ms ease-in-out 500ms, opacity 500ms; */
   display: none;
 }
 
 .show {
   visibility: visible;
-
   animation: fadeIn 1.5s ease-in-out;
-
-  /* transition: visibility 500s ease-in-out 500ms, opacity 500ms; */
   display: "";
 }
 
